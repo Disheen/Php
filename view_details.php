@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-	$sql="SELECT * FROM staff_d where job_type='Waiter'";
+	$sql="SELECT * FROM staff where job_type='Waiter'";
 	 if($result=mysqli_query($conn,$sql))
             {
             	
