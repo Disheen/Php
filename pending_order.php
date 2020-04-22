@@ -169,7 +169,7 @@ li a:active  {
         <li><a  href="Manage.php">PLACE ORDER</a></li>
         <li><a  class="active" href="pending_order.php">PENDING ORDERS</a></li>
         <li><a href="completed_orders.php">COMPLETED ORDERS</a></li>
-         <li><a   href="Index.php">HOME</a></li><br><br><br>
+         <li><a   href="index.php">HOME</a></li><br><br><br>
         </ul>
         </nav>
 </body>
