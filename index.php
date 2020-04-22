@@ -45,7 +45,7 @@ if(isset($_POST["login"])){
             {}
 			$rows = mysqli_num_rows($resu);
 
-			if($rows==1)
+			if($rows!=0)
 			{
 
 					 
