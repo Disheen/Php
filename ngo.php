@@ -66,6 +66,6 @@ else{
     echo "error2:".mysqli_error($conn);
 
 }
-#echo "<script> location.href='Main.php'; </script>";
+#echo "<script> location.href='Index.php'; </script>";
 
 }
