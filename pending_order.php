@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "DBMS";
+$servername = "remotemysql.com";
+$username = "HXv2OiODBj";
+$password = "raJlN4A1Tk";
+$dbname = "HXv2OiODBj";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -169,7 +169,7 @@ li a:active  {
         <li><a  href="Manage.php">PLACE ORDER</a></li>
         <li><a  class="active" href="pending_order.php">PENDING ORDERS</a></li>
         <li><a href="completed_orders.php">COMPLETED ORDERS</a></li>
-         <li><a   href="Main.php">HOME</a></li><br><br><br>
+         <li><a   href="Index.php">HOME</a></li><br><br><br>
         </ul>
         </nav>
 </body>
