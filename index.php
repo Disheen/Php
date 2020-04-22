@@ -1,4 +1,9 @@
 <?php
+$servername = "remotemysql.com";
+$username = "HXv2OiODBj";
+$password = "raJlN4A1Tk";
+$dbname = "HXv2OiODBj";
+
  /*
  if(isset($_POST["submit"])){
             $fname=$_POST["fname"];
