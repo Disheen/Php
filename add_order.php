@@ -41,7 +41,7 @@ $j=0;
 		$s = $a->fetch_assoc();
 		$n=$s["item_name"];
 #		echo $n;
-		$sq1="SELECT Customer_Id From C_table where name='".$name."'";
+		$sq1="SELECT Customer_Id From c_table where name='".$name."'";
 		if(mysqli_query($conn,$sq1)){
 
 		}
