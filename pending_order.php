@@ -31,7 +31,7 @@ if ($conn->connect_error) {
                      {
                       $curr=$row["CustomerId"];
 
-                       $s="SELECT * from C_table WHERE Customer_Id='".$row["CustomerId"]."'  ORDER by Customer_Id DESC";
+                       $s="SELECT * from c_table WHERE Customer_Id='".$row["CustomerId"]."'  ORDER by Customer_Id DESC";
                        $re=$conn->query($s);
                        $r=$re->fetch_assoc();
                        if($curr!=$prev) 
