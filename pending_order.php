@@ -35,7 +35,8 @@ if ($conn->connect_error) {
                        $re=$conn->query($s);
                        $r=$re->fetch_assoc();
                        if($curr!=$prev) 
-                        {echo"<td>".$row["CustomerId"]."</td>";}
+                        {	echo"aa"
+			       echo"<td>".$row["CustomerId"]."</td>";}
                         else{
                           echo "<td> </td>";
                         } 
