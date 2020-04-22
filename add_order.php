@@ -15,7 +15,7 @@ $email=$_POST["email"];
 $contact=$_POST["m_no"];
 
 if(!empty($_POST["item"])){
-	$sql="INSERT INTO C_table( name, email, contact) VALUES ('".$name."','".$email."','".$contact."')";
+	$sql="INSERT INTO c_table( name, email, contact) VALUES ('".$name."','".$email."','".$contact."')";
 		if(mysqli_query($conn,$sql)){
 			
 
