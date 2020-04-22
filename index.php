@@ -40,6 +40,8 @@ $dbname = "HXv2OiODBj";
 if(isset($_POST["login"])){
  	$username=$_POST["emailid"];
  	$pass=$_POST["password"];
+	echo $username;
+	echo $pass
  	$sq1="SELECT * FROM Manager_ttable where username='".$username."' AND password ='".$pass."'";
             if($resu=mysqli_query($conn,$sq1))
             {}
