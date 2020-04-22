@@ -19,7 +19,7 @@ if ($conn->connect_error) {
     else {
     	echo"<p style='margin-top:150px;'>error:".mysqli_error($conn)."</p>";
     }
-    $sql1="SELECT * FROM staff_d where job_type='Chef' ";
+    $sql1="SELECT * FROM staff where job_type='Chef' ";
 	 if($result1=mysqli_query($conn,$sql1))
             {
            	
@@ -28,7 +28,7 @@ if ($conn->connect_error) {
     	echo"<p style='margin-top:150px;'>error:".mysqli_error($conn)."</p>";
     }  
     
-	$sql2="SELECT * FROM staff_d   where job_type='Cashier' ";
+	$sql2="SELECT * FROM staff   where job_type='Cashier' ";
 	 if($result2=mysqli_query($conn,$sql2))
             {
            	
@@ -161,7 +161,7 @@ else{return false;}
         <ul>
         <li><a  class="active" href="view_details.php">VIEW DETAILS</a></li>
         <li><a href="manage_details.php">MANAGE DETAILS</a></li>
-         <li><a   href="Main.php">HOME</a></li><br><br><br>
+         <li><a   href="index.php">HOME</a></li><br><br><br>
         </ul>
         </nav>
         <details style="margin-top: 100px;">
