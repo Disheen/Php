@@ -76,7 +76,7 @@ a{
 
 
 <body style="background-image: url('back.jpg');">
-	<div class="a"> <form action="main.php"  method="POST" autocomplete="off">
+	<div class="a"> <form action="Index.php"  method="POST" autocomplete="off">
        
 
 		<center><p style="color:white; font-size:20px;font-family:Segoe UI Light; ">Login And Take your bussiness to next Level</p> </center>      
